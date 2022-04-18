@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Android system phone" />
+    <TextView
+        android:id="@+id/phone"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose" />
+    <TextView
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IOS system phone" />
+    <TextView
+        android:id="@+id/iosphone"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose" />
+    <TextView
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tolem zhasay turu" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="With card" />
+        <RadioButton
+            android:id="@+id/nalom"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Nalom" />
+    </RadioGroup>
+    <TextView
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zhetkizu" />
+    <CheckBox
+        android:id="@+id/surprise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="surprise"/>
+    <CheckBox
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adrees"/>
+    <Button
+        android:id="@+id/zhberu"
+        android:layout_width="match_parent"
+        android:layout_margin="30dp"
+        android:layout_height="wrap_content"
+        android:text="zhberu"/>
+</LinearLayout>
